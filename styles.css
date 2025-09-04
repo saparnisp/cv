@@ -35,6 +35,19 @@ body {
     padding: 0 1.5rem;
 }
 
+/* Global Link Styles - Make links appear as regular text */
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: default;
+    transition: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Header Styles */
 .header {
     margin-bottom: 1.8rem;
@@ -113,10 +126,12 @@ body {
     color: var(--color-accent);
     text-decoration: none;
     font-weight: 500;
+    cursor: default;
 }
 
 .contact-item a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--color-accent);
 }
 
 /* Section Styles */
@@ -165,10 +180,12 @@ body {
     color: var(--color-accent);
     text-decoration: none;
     font-weight: 600;
+    cursor: default;
 }
 
 .details h3 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--color-accent);
 }
 
 .company, .institution {
@@ -235,10 +252,12 @@ body {
     color: var(--color-accent);
     text-decoration: none;
     font-weight: 600;
+    cursor: default;
 }
 
 .project-details strong a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--color-accent);
 }
 
 .project-details p {
@@ -299,10 +318,12 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 0.95rem;
+    cursor: default;
 }
 
 .web-project strong a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--color-accent);
 }
 
 .web-project p {
